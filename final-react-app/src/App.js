@@ -11,11 +11,13 @@ class App extends Component {
 }
 
 componentDidMount() {
-
 }
 
 render() {
-  return <div></div>;
+  return <div className = "parent">
+    <div className = "child1"></div>
+    <div className = "child2"></div>
+  </div>;
 }
 }
 
